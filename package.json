@@ -1,0 +1,43 @@
+{
+  "name": "elysium-funeral-management-system",
+  "version": "1.0.0",
+  "description": "elysium mobile app backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm run dev --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NitroQ/nurd-integrated-system.git"
+  },
+  "author": "Cruz, Raphael Arnaldo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NitroQ/nurd-integrated-system/issues"
+  },
+  "homepage": "https://github.com/NitroQ/nurd-integrated-system#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.4",
+    "mongoose-sequence": "^5.3.1",
+    "nodemailer": "^6.9.4",
+    "react-query": "^3.39.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
